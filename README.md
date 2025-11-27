@@ -317,8 +317,6 @@ src/
 
 # 🖼 **Screenshots**
 
-*(Replace these placeholders with real screenshots)*
-
 ```
 ![Main Menu](docs/screenshots/mainmenu.png)
 ![Room View](docs/screenshots/room.png)
