@@ -1,0 +1,45 @@
+.pinboard-root {
+    -fx-background-color: #2b2b2b;
+}
+
+.pinboard-canvas {
+    -fx-background-color: #3b3b3b;
+    -fx-background-image: url("/images/corkboard_bg.png"); /* Optional if we had an image */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0, 0, 0);
+}
+
+.pinboard-item {
+    -fx-background-color: #fdfd96; /* Sticky note yellow default */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 2, 2);
+    -fx-padding: 5;
+    -fx-border-color: #d4af37;
+    -fx-border-width: 1;
+}
+
+.pinboard-item-title {
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.pinboard-item-content {
+    -fx-font-size: 10px;
+    -fx-wrap-text: true;
+}
+
+.pinboard-toolbar {
+    -fx-background-color: #1a1a1a;
+    -fx-padding: 5;
+}
+
+.pinboard-sidebar {
+    -fx-background-color: #222222;
+    -fx-padding: 10;
+}
+
+.section-header {
+    -fx-text-fill: #d4af37;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5 0 5 0;
+    -fx-border-color: transparent transparent #d4af37 transparent;
+}

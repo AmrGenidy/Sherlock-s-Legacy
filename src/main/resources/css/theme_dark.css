@@ -1,0 +1,253 @@
+/* Detective Game - Dark Theme CSS */
+/* Inspired by Victorian detective aesthetic with modern touches */
+
+.root {
+  -fx-base: #1a1a1a;
+  -fx-background: #0a0a0a;
+  -fx-accent: #d4af37; /* Gold accent */
+  -fx-focus-color: #d4af37;
+  -fx-font-family: "Georgia", "Times New Roman", serif;
+}
+
+/* Main Menu */
+.main-menu-container {
+  -fx-background-color: #0a0a0a;
+}
+
+.main-menu-button {
+  -fx-background-color: #3a3a3a;
+  -fx-text-fill: #d4af37;
+  -fx-font-weight: bold;
+  -fx-font-size: 16px;
+  -fx-background-radius: 8;
+  -fx-padding: 12 24 12 24;
+  -fx-min-width: 250px;
+  -fx-cursor: hand;
+}
+
+.main-menu-button:hover {
+  -fx-background-color: #4a4a4a;
+  -fx-scale-x: 1.05;
+  -fx-scale-y: 1.05;
+}
+
+.main-menu-button:pressed {
+  -fx-background-color: #2a2a2a;
+}
+
+
+/* Top Buttons */
+.top-button {
+  -fx-background-color: #3a3a3a;
+  -fx-text-fill: #d4af37;
+  -fx-font-weight: bold;
+  -fx-background-radius: 5;
+  -fx-padding: 8 20 8 20;
+  -fx-cursor: hand;
+}
+
+.top-button:hover {
+  -fx-background-color: #4a4a4a;
+  -fx-scale-x: 1.05;
+  -fx-scale-y: 1.05;
+}
+
+.top-button:pressed {
+  -fx-background-color: #2a2a2a;
+}
+
+/* TextArea and TextField */
+.text-area, .text-field {
+  -fx-background-color: #0a0a0a;
+  -fx-text-fill: #FFC300; /* Amber text */
+  -fx-font-family: "Courier New", monospace;
+}
+
+.text-area .content, .text-field .content {
+  -fx-background-color: #0a0a0a;
+}
+
+/* ListViews */
+.list-view {
+  -fx-background-color: #1a1a1a;
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
+
+.list-view .list-cell {
+  -fx-background-color: #1a1a1a;
+  -fx-text-fill: #cccccc;
+  -fx-padding: 5;
+}
+
+.list-view .list-cell:hover {
+  -fx-background-color: #2a2a2a;
+}
+
+.list-view .list-cell:selected {
+  -fx-background-color: #3a3a3a;
+  -fx-text-fill: #d4af37;
+}
+
+/* Buttons */
+.button {
+  -fx-background-color: #3a3a3a;
+  -fx-text-fill: #d4af37;
+  -fx-background-radius: 5;
+  -fx-padding: 5 15 5 15;
+  -fx-cursor: hand;
+}
+
+.button:hover {
+  -fx-background-color: #4a4a4a;
+}
+
+.button:pressed {
+  -fx-background-color: #2a2a2a;
+}
+
+/* Labels */
+.label {
+  -fx-text-fill: #cccccc;
+}
+
+/* Separator */
+.separator .line {
+  -fx-border-color: #3a3a3a;
+}
+
+/* ScrollPane */
+.scroll-pane {
+  -fx-background-color: #1a1a1a;
+}
+
+.scroll-pane .viewport {
+  -fx-background-color: #1a1a1a;
+}
+
+.scroll-bar {
+  -fx-background-color: #2a2a2a;
+}
+
+.scroll-bar .thumb {
+  -fx-background-color: #b08d57; /* Brass color */
+  -fx-background-radius: 5;
+}
+
+.scroll-bar .thumb:hover {
+  -fx-background-color: #c09d67;
+}
+
+/* SplitPane */
+.split-pane {
+  -fx-background-color: #1a1a1a;
+}
+
+.split-pane-divider {
+  -fx-background-color: #3a3a3a;
+  -fx-padding: 0 1 0 1;
+}
+
+/* Alert Dialogs */
+.alert.dialog-pane {
+  -fx-background-color: #2a2a2a;
+}
+
+.alert .header-panel {
+  -fx-background-color: #3a3a3a;
+}
+
+.alert .header-panel .label {
+  -fx-text-fill: #d4af37;
+  -fx-font-weight: bold;
+  -fx-font-size: 16;
+}
+
+.alert .content.label {
+  -fx-text-fill: #cccccc;
+  -fx-font-size: 14;
+}
+
+.alert .button {
+  -fx-background-color: #3a3a3a;
+  -fx-text-fill: #d4af37;
+  -fx-font-weight: bold;
+  -fx-background-radius: 5;
+  -fx-padding: 8 20 8 20;
+}
+
+.alert .button:hover {
+  -fx-background-color: #4a4a4a;
+}
+
+.alert .button:pressed {
+  -fx-background-color: #2a2a2a;
+}
+
+/* Transitions and Animations */
+.fade-in {
+  -fx-opacity: 0;
+  -fx-transition: opacity 0.5s ease-in;
+}
+
+.fade-in:hover {
+  -fx-opacity: 1;
+}
+
+/* Custom Scrollbar for better aesthetics */
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+  -fx-background-color: #2a2a2a;
+  -fx-border-color: #1a1a1a;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+  -fx-background-color: #b08d57; /* Brass color */
+  -fx-background-radius: 5;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+  -fx-background-color: #c09d67;
+}
+
+.scroll-bar:horizontal .thumb:pressed,
+.scroll-bar:vertical .thumb:pressed {
+  -fx-background-color: #d0ad77;
+}
+
+/* CheckBox styling */
+.check-box {
+  -fx-text-fill: #cccccc;
+}
+
+.check-box .box {
+  -fx-background-color: #2a2a2a;
+  -fx-border-color: #d4af37;
+  -fx-border-width: 2;
+  -fx-background-radius: 3;
+}
+
+.check-box:selected .mark {
+  -fx-background-color: #d4af37;
+}
+
+.check-box:hover .box {
+  -fx-background-color: #3a3a3a;
+}
+
+/* VBox and HBox */
+.vbox, .hbox {
+  -fx-background-color: transparent;
+}
+
+/* Pane styling */
+.pane {
+  -fx-background-color: transparent;
+}
+
+/* StackPane */
+.stack-pane {
+  -fx-background-color: transparent;
+}
