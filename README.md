@@ -317,13 +317,10 @@ src/
 
 # 🖼 **Screenshots**
 
-```
 ![Main Menu](docs/screenshots/mainmenu.png)
 ![Room View](docs/screenshots/room.png)
-![Suspect Panel](docs/screenshots/suspect.png)
-![Terminal + GUI Hybrid](docs/screenshots/hybrid.png)
+![Detective PinBoard](docs/screenshots/pinboard.png)
 ![Multiplayer Lobby](docs/screenshots/lobby.png)
-```
 
 ---
 
