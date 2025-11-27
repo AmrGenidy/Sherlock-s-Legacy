@@ -318,9 +318,16 @@ src/
 # 🖼 **Screenshots**
 
 ![Main Menu](docs/screenshots/mainmenu.png)
+*Main Menu*
+
 ![Room View](docs/screenshots/room.png)
+*Room View*
+
 ![Detective PinBoard](docs/screenshots/pinboard.png)
+*Detective PinBoard*
+
 ![Multiplayer Lobby](docs/screenshots/lobby.png)
+*Multiplayer Lobby*
 
 ---
 
