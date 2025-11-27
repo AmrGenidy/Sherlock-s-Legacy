@@ -340,7 +340,7 @@ src/
 
 ### **Instructor & Guidance**
 
-Special thanks to the supervising professor for:
+Special thanks to the supervising professor "Qiu Tiansheng" for:
 
 * early debugging assistance
 * architectural feedback
