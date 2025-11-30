@@ -352,8 +352,10 @@ Special thanks to the supervising professor "Qiu Tiansheng" for:
 
 # 📜 **License**
 
-This project is distributed under the **MIT License**.
-You are free to modify, distribute, and create your own detective cases.
+This repository uses a dual-license model:
 
+• Source code → GPL v3.0  
+• Creative content (story, design, game mechanics, narrative text) → CC BY‑NC‑ND 4.0
 
-Just let me know!
+You may study the creative content, but you may not reuse, modify, or redistribute it.
+
